@@ -88,10 +88,7 @@ const Contact = () => {
                                     <div className="w-14 h-14 rounded-2xl bg-[#367D8A]/10 text-[#367D8A] flex items-center justify-center group-hover:bg-[#367D8A] group-hover:text-white transition-all">
                                         <Phone size={24} />
                                     </div>
-                                    <div>
-                                        <div className="text-zinc-500 text-xs font-bold uppercase tracking-widest">Call Me</div>
-                                        <div className="text-white font-bold group-hover:text-[#367D8A] transition-colors">6379071347</div>
-                                    </div>
+                                   
                                 </a>
                                 <a href="https://www.linkedin.com/in/swathi-muthukumar-60831a248/" target="_blank" className="flex items-center gap-5 group">
                                     <div className="w-14 h-14 rounded-2xl bg-[#367D8A]/10 text-[#367D8A] flex items-center justify-center group-hover:bg-[#367D8A] group-hover:text-white transition-all">
