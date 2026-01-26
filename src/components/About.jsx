@@ -6,152 +6,118 @@ const About = () => {
     const highlights = [
         {
             icon: <Target className="w-6 h-6" />,
-            title: "Precision Matching",
-            description: "Expert at identifying candidates who align perfectly with technical requirements and company culture."
+            title: "Precision Hiring",
+            description: "Identifying the perfect candidates through deep technical screening and culture alignment."
         },
         {
             icon: <Users className="w-6 h-6" />,
-            title: "Relationship Building",
-            description: "Strong communication skills to engage with candidates and hiring managers effectively."
+            title: "People First",
+            description: "Building strong, long-term relationships with both talent and hiring managers."
         },
         {
             icon: <Zap className="w-6 h-6" />,
-            title: "Fast Turnaround",
-            description: "Efficient screening and coordination process to reduce time-to-hire significantly."
+            title: "Fast Results",
+            description: "Efficient coordination and sourcing to reduce time-to-hire without compromising quality."
         },
         {
             icon: <Award className="w-6 h-6" />,
-            title: "Quality Focus",
-            description: "Committed to delivering only the most qualified candidates for every position."
+            title: "Quality Focused",
+            description: "Delivering only the best candidates who are ready to make a real impact."
         }
     ];
 
-    const expertise = [
-        "Full-cycle IT recruitment",
-        "Technical candidate sourcing",
-        "Behavioral & technical screening",
-        "Interview coordination & scheduling",
-        "Offer negotiation & closing",
-        "LinkedIn Recruiter proficiency",
-        "ATS management & optimization",
-        "Stakeholder communication"
-    ];
-
     return (
-        <section id="about" className="py-32 relative overflow-hidden">
+        <section id="about" className="py-24 relative overflow-hidden">
             <div className="max-w-7xl mx-auto px-6">
 
-                {/* Horizontal Section Indicator */}
-                <div className="flex items-center gap-6 mb-24 overflow-hidden">
+                {/* Header */}
+                <div className="text-center mb-20 space-y-4">
                     <motion.div
-                        initial={{ width: 0 }}
-                        whileInView={{ width: "100px" }}
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
-                        className="h-[1px] bg-[#367D8A]"
-                    ></motion.div>
-                    <span className="text-zinc-500 font-bold uppercase tracking-[0.5em] text-[10px] whitespace-nowrap">Philosophy / About</span>
-                    <div className="h-[1px] bg-white/5 w-full"></div>
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#367D8A]/10 border border-[#367D8A]/20 text-[#367D8A] text-xs font-bold uppercase tracking-widest"
+                    >
+                        <Sparkles size={14} />
+                        Get to know me
+                    </motion.div>
+                    <h2 className="text-5xl md:text-6xl font-extrabold text-white">About <span className="text-[#367D8A]">Me</span></h2>
                 </div>
 
-                {/* Split Context Layout */}
-                <div className="grid lg:grid-cols-12 gap-20 items-start mb-32">
+                {/* Content Grid */}
+                <div className="grid lg:grid-cols-2 gap-16 items-center mb-24">
 
-                    {/* Visual Narrative Side */}
+                    {/* Visual Side */}
                     <motion.div
-                        initial={{ opacity: 0, x: -50 }}
+                        initial={{ opacity: 0, x: -30 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
-                        className="lg:col-span-5 relative"
+                        className="relative"
                     >
-                        <div className="bento-card border-none bg-black/40 p-0 overflow-hidden relative group">
-                            <div className="absolute inset-0 z-0 opacity-10 group-hover:opacity-20 transition-all duration-700 bg-[#367D8A]"></div>
-                            <DotLottieReact
-                                src="https://lottie.host/ac92c554-07d4-4a57-b4d2-7c30f4a475d4/L0v3kPnK5K.json"
-                                loop
-                                autoplay
-                                className="w-full h-full scale-125 grayscale group-hover:grayscale-0 transition-all duration-700"
-                            />
-                            <div className="absolute bottom-10 left-10 z-10">
-                                <span className="text-white font-bold text-4xl block">1.5 Years</span>
-                                <span className="text-[#367D8A] font-bold uppercase tracking-widest text-xs">of strategic placement</span>
+                        <div className="bento-card bg-[#133336]/20 border-[#367D8A]/30 p-8 rounded-[40px] relative overflow-hidden group">
+                            <div className="absolute inset-0 z-0 opacity-10">
+                                <DotLottieReact
+                                    src="https://lottie.host/ac92c554-07d4-4a57-b4d2-7c30f4a475d4/L0v3kPnK5K.json"
+                                    loop
+                                    autoplay
+                                />
+                            </div>
+                            <div className="relative z-10 space-y-6">
+                                <div className="text-5xl font-black text-white">1.5 Years</div>
+                                <p className="text-xl text-zinc-300 font-medium leading-relaxed">
+                                    of hands-on experience in the technical recruitment ecosystem,
+                                    helping teams grow with the right talent.
+                                </p>
                             </div>
                         </div>
-
-                        {/* Decorative floating badge */}
-                        <motion.div
-                            animate={{ y: [0, -20, 0] }}
-                            transition={{ duration: 4, repeat: Infinity }}
-                            className="absolute -top-10 -right-10 bg-[#367D8A] text-white p-8 rounded-full shadow-2xl flex flex-col items-center justify-center gap-1 z-20"
-                        >
-                            <Sparkles size={20} />
-                            <span className="font-bold text-[10px] uppercase tracking-tighter">Certified</span>
-                        </motion.div>
                     </motion.div>
 
-                    {/* Content Narrative Side */}
-                    <div className="lg:col-span-7 space-y-12">
-                        <motion.div
-                            initial={{ opacity: 0, y: 30 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                        >
-                            <h2 className="text-5xl lg:text-7xl font-bold text-white leading-tight mb-8">
-                                I bridge the <br />
-                                <span className="text-[#367D8A]">talent gap</span> with <br />
-                                precision.
-                            </h2>
-                            <div className="space-y-6 text-zinc-400 text-lg font-light leading-relaxed max-w-2xl">
-                                <p>
-                                    As an IT Recruiter at <span className="text-white font-medium">Codingmart Technology</span>,
-                                    I don't just fill positions; I sculpt teams. I specialize in the architecture of technical human resources,
-                                    ensuring every placement is a catalyst for company growth.
-                                </p>
-                                <p>
-                                    My methodology integrates <span className="text-[#367D8A] font-medium italic underline decoration-1 underline-offset-8">psychological fitment</span> with
-                                    rigorous technical vetting. I navigate the global talent pool to extract the 0.1% that truly matters.
-                                </p>
-                            </div>
-                        </motion.div>
+                    {/* Text Side */}
+                    <motion.div
+                        initial={{ opacity: 0, x: 30 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        className="space-y-8"
+                    >
+                        <h3 className="text-3xl font-bold text-white">Helping technical teams grow with precision and passion.</h3>
+                        <div className="space-y-6 text-zinc-400 text-lg leading-relaxed">
+                            <p>
+                                Currently an IT Recruiter at <span className="text-white font-semibold">Codingmart Technology</span>,
+                                I focus on identifying high-potential candidates for roles across Full Stack, DevOps, Mobile development, and more.
+                            </p>
+                            <p>
+                                I believe recruitment is more than just filling seats—it's about building strong foundations for companies and
+                                meaningful career paths for people.
+                            </p>
+                        </div>
 
-                        {/* High-end Expertise Cloud */}
-                        <div className="flex flex-wrap gap-3">
-                            {expertise.map((item, i) => (
-                                <motion.span
-                                    key={i}
-                                    initial={{ opacity: 0, scale: 0.8 }}
-                                    whileInView={{ opacity: 1, scale: 1 }}
-                                    viewport={{ once: true }}
-                                    transition={{ delay: i * 0.05 }}
-                                    className="px-6 py-3 bg-white/5 border border-white/5 rounded-full text-zinc-300 text-sm hover:border-[#367D8A] hover:bg-[#367D8A]/5 hover:text-white transition-all cursor-default"
-                                >
+                        {/* Expertise List */}
+                        <div className="flex flex-wrap gap-4">
+                            {["Technical Sourcing", "Candidate Screening", "Full-Cycle Recruitment", "Stakeholder Management", "Offer Negotiation"].map((item, i) => (
+                                <span key={i} className="px-4 py-2 rounded-xl bg-white/5 border border-white/5 text-zinc-300 text-sm font-medium">
                                     {item}
-                                </motion.span>
+                                </span>
                             ))}
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
 
-                {/* Highlights Bento Overlay */}
-                <div className="grid md:grid-cols-4 gap-8">
+                {/* Highlights */}
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {highlights.map((item, index) => (
                         <motion.div
                             key={index}
-                            initial={{ opacity: 0, y: 30 }}
+                            initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
-                            whileHover={{ y: -10 }}
-                            className="bento-card group h-full flex flex-col justify-between"
+                            className="bg-white/5 border border-white/5 p-8 rounded-[32px] hover:bg-[#367D8A]/5 hover:border-[#367D8A]/30 transition-all group"
                         >
-                            <div className="space-y-6">
-                                <div className="w-14 h-14 bg-[#367D8A]/10 rounded-2xl flex items-center justify-center text-[#367D8A] border border-[#367D8A]/20 transition-all group-hover:bg-[#367D8A] group-hover:text-white">
-                                    {item.icon}
-                                </div>
-                                <h4 className="text-xl font-bold text-white group-hover:text-[#367D8A] transition-colors">{item.title}</h4>
+                            <div className="w-12 h-12 rounded-2xl bg-[#367D8A]/10 text-[#367D8A] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                                {item.icon}
                             </div>
-                            <p className="text-zinc-500 text-sm leading-relaxed mt-10 group-hover:text-zinc-300 transition-colors">
-                                {item.description}
-                            </p>
+                            <h4 className="text-white font-bold text-xl mb-3">{item.title}</h4>
+                            <p className="text-zinc-500 text-sm leading-relaxed">{item.description}</p>
                         </motion.div>
                     ))}
                 </div>
