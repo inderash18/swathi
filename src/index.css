@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    @apply bg-[#010001] text-white;
+  }
+
+  body {
+    @apply antialiased min-h-screen selection:bg-[#367D8A]/30 selection:text-white;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    font-family: 'Outfit', 'Inter', -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Premium Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #010001;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #133336;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #367D8A;
+  }
+}
+
+/* Glass Card */
+.bento-card {
+  @apply bg-gradient-to-br from-[#133336]/30 to-[#010001]/40 border border-white/10 rounded-[32px] p-8 transition-all duration-300 hover:border-[#367D8A]/50 hover:bg-[#133336]/40 relative backdrop-blur-3xl;
+}
+
+/* Designer Grid */
+.designer-grid {
+  background-size: 60px 60px;
+  background-image: radial-gradient(circle, rgba(54, 125, 138, 0.05) 1px, transparent 1px);
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-white via-[#367D8A] to-[#AFDDE5];
+}
+
+/* Floating Shapes */
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px) translateX(0px);
+  }
+
+  50% {
+    transform: translateY(-30px) translateX(15px);
+  }
+}
+
+.floating-shape {
+  animation: float 10s ease-in-out infinite;
+}
+
+/* Friendly Orbs */
+.orb {
+  @apply absolute rounded-full blur-[120px] pointer-events-none opacity-40;
+}
