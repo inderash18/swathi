@@ -10,10 +10,12 @@ const Skills = () => {
             icon: <Users className="w-6 h-6" />,
             color: "teal",
             skills: [
-                { name: "Sourcing & Screening", level: 95 },
-                { name: "Technical Interviewing", level: 90 },
-                { name: "Talent Branding", level: 85 },
-                { name: "Onboarding Management", level: 95 },
+                { name: "Sourcing", level: 95 },
+                { name: "Screening", level: 90 },
+                { name: "Conducting L1 Interviews", level: 85 },
+                { name: "Client Management", level: 90 },
+                { name: "Candidate Engagement", level: 95 },
+                { name: "Onboarding Management", level: 90 },
             ]
         },
         {
@@ -21,10 +23,12 @@ const Skills = () => {
             icon: <Database className="w-6 h-6" />,
             color: "deepTeal",
             skills: [
-                { name: "LinkedIn Recruiter", level: 90 },
-                { name: "Naukri Portal", level: 85 },
-                { name: "ATS Mastery", level: 80 },
-                { name: "Google Workspace", level: 90 }
+                { name: "LinkedIn Recruiter", level: 95 },
+                { name: "Naukri", level: 90 },
+                { name: "Indeed", level: 85 },
+                { name: "MS Teams", level: 90 },
+                { name: "Slack", level: 85 },
+                { name: "Zoom", level: 90 }
             ]
         },
         {
@@ -32,11 +36,11 @@ const Skills = () => {
             icon: <MessageSquare className="w-6 h-6" />,
             color: "white",
             skills: [
-                { name: "Client Communication", level: 95 },
+                { name: "Client Management", level: 95 },
                 { name: "Conflict Resolution", level: 85 },
-                { name: "Time Management", level: 90 },
-                { name: "Relationship Building", level: 95 },
-                { name: "Offer Negotiation", level: 80 }
+                { name: "Time-to-Hire Optimization", level: 90 },
+                { name: "Quality of Hire Focus", level: 95 },
+                { name: "Negotiation", level: 85 }
             ]
         }
     ];
