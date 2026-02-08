@@ -6,41 +6,38 @@ import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 const Skills = () => {
     const skillCategories = [
         {
-            title: "Recruitment Skills",
+            title: "Recruitment Consultancy Services",
             icon: <Users className="w-6 h-6" />,
             color: "teal",
             skills: [
-                { name: "Sourcing", level: 95 },
-                { name: "Screening", level: 90 },
-                { name: "Conducting L1 Interviews", level: 85 },
-                { name: "Client Management", level: 90 },
-                { name: "Candidate Engagement", level: 95 },
-                { name: "Onboarding Management", level: 90 },
+                { name: "Recruitment Strategy Advisory", level: 95 },
+                { name: "Talent Sourcing Guidance", level: 90 },
+                { name: "Screening & Shortlisting Best Practices", level: 95 },
+                { name: "Interview & Assessment Frameworks", level: 90 },
+                { name: "Process Optimization for Hiring", level: 85 },
             ]
         },
         {
-            title: "Tools & Platforms",
-            icon: <Database className="w-6 h-6" />,
+            title: "Talent Branding & Employer Marketing",
+            icon: <Target className="w-6 h-6" />,
             color: "deepTeal",
             skills: [
-                { name: "LinkedIn Recruiter", level: 95 },
-                { name: "Naukri", level: 90 },
-                { name: "Indeed", level: 85 },
-                { name: "MS Teams", level: 90 },
-                { name: "Slack", level: 85 },
-                { name: "Zoom", level: 90 }
+                { name: "Employer Profile Optimization", level: 90 },
+                { name: "Job Description Creation", level: 95 },
+                { name: "Talent Engagement Campaigns", level: 85 },
+                { name: "Social Media & Digital Branding Support", level: 90 }
             ]
         },
         {
-            title: "Soft Skills",
+            title: "Personal Branding",
             icon: <MessageSquare className="w-6 h-6" />,
             color: "white",
             skills: [
-                { name: "Client Management", level: 95 },
-                { name: "Conflict Resolution", level: 85 },
-                { name: "Time-to-Hire Optimization", level: 90 },
-                { name: "Quality of Hire Focus", level: 95 },
-                { name: "Negotiation", level: 85 }
+                { name: "Mock Technical Interviews", level: 95 },
+                { name: "Resume Coaching", level: 90 },
+                { name: "Interview Preparation Guidance", level: 95 },
+                { name: "Career Guidance & Advisory", level: 90 },
+                { name: "LinkedIn Optimization", level: 85 }
             ]
         }
     ];
@@ -82,7 +79,7 @@ const Skills = () => {
                             <Sparkles size={14} />
                             Quantifying value
                         </motion.div>
-                        <h2 className="text-5xl md:text-6xl font-extrabold text-white">Technical <span className="text-[#367D8A]">Skillset</span></h2>
+                        <h2 className="text-5xl md:text-6xl font-extrabold text-white">Expertise & <span className="text-[#367D8A]">Services</span></h2>
                     </div>
                 </div>
 
