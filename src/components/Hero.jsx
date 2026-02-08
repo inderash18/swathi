@@ -31,8 +31,8 @@ const Hero = () => {
                             transition={{ delay: 0.3 }}
                             className="text-6xl lg:text-7xl font-extrabold text-white leading-tight"
                         >
-                            Hi, I'm <span className="text-[#367D8A]">Swathi</span>. <br />
-                            Let's find your <span className="italic font-light">next star</span>.
+                            Hi, I'm <span className="text-[#367D8A]">Swathi</span>
+                            Let's find your <span className="italic font-light">next star</span>
                         </motion.h1>
 
                         <motion.p
@@ -41,8 +41,8 @@ const Hero = () => {
                             transition={{ delay: 0.4 }}
                             className="text-lg text-zinc-400 max-w-xl leading-relaxed"
                         >
-                            With 1.5 years of experience at <span className="text-white font-medium">Codingmart Technology</span>,
-                            I specialize in bridging the gap between exceptional technical talent and innovative companies.
+                           IT Recruiter with 1.6 years  <span className="text-white font-medium">of experience handling the end-to-end recruitment lifecycle, including sourcing, screening, interview coordination, and client management.</span>
+                            Experienced in understanding technical requirements and delivering suitable candidates while ensuring a smooth hiring experience for both clients and candidates.
                         </motion.p>
                     </div>
 
@@ -79,7 +79,7 @@ const Hero = () => {
                         className="grid grid-cols-3 gap-8 pt-8 border-t border-white/5"
                     >
                         <div>
-                            <div className="text-3xl font-bold text-white">1.5+</div>
+                            <div className="text-3xl font-bold text-white">1.6+</div>
                             <div className="text-xs text-zinc-500 uppercase font-bold tracking-wider">Years Exp</div>
                         </div>
                         <div>

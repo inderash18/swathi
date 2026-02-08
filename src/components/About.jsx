@@ -63,7 +63,7 @@ const About = () => {
                                 />
                             </div>
                             <div className="relative z-10 space-y-6">
-                                <div className="text-5xl font-black text-white">1.5 Years</div>
+                                <div className="text-5xl font-black text-white">1.6 Years</div>
                                 <p className="text-xl text-zinc-300 font-medium leading-relaxed">
                                     of hands-on experience in the technical recruitment ecosystem,
                                     helping teams grow with the right talent.
@@ -82,8 +82,7 @@ const About = () => {
                         <h3 className="text-3xl font-bold text-white">Helping technical teams grow with precision and passion.</h3>
                         <div className="space-y-6 text-zinc-400 text-lg leading-relaxed">
                             <p>
-                                Currently an IT Recruiter at <span className="text-white font-semibold">Codingmart Technology</span>,
-                                I focus on identifying high-potential candidates for roles across Full Stack, DevOps, Mobile development, and more.
+                               I am an IT Recruiter with 1.6 years of experience managing the end-to-end recruitment lifecycle, including talent sourcing, screening, conducting L1 <span className="text-white font-semibold">interview coordination, and client management for technical roles.</span> I partner with business leaders to understand workforce requirements and deliver high-quality talent that drives organizational growth.
                             </p>
                             <p>
                                 I believe recruitment is more than just filling seats—it's about building strong foundations for companies and

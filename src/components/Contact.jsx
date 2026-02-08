@@ -84,12 +84,6 @@ const Contact = () => {
                                         <div className="text-white font-bold group-hover:text-[#367D8A] transition-colors">swatiswathi777@gmail.com</div>
                                     </div>
                                 </a>
-                                <a href="tel:6379071347" className="flex items-center gap-5 group">
-                                    <div className="w-14 h-14 rounded-2xl bg-[#367D8A]/10 text-[#367D8A] flex items-center justify-center group-hover:bg-[#367D8A] group-hover:text-white transition-all">
-                                        <Phone size={24} />
-                                    </div>
-                                   
-                                </a>
                                 <a href="https://www.linkedin.com/in/swathi-muthukumar-60831a248/" target="_blank" className="flex items-center gap-5 group">
                                     <div className="w-14 h-14 rounded-2xl bg-[#367D8A]/10 text-[#367D8A] flex items-center justify-center group-hover:bg-[#367D8A] group-hover:text-white transition-all">
                                         <Linkedin size={24} />
