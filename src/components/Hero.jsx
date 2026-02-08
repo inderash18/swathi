@@ -41,8 +41,7 @@ const Hero = () => {
                             transition={{ delay: 0.4 }}
                             className="text-lg text-zinc-400 max-w-xl leading-relaxed"
                         >
-                           IT Recruiter with 1.6 years  <span className="text-white font-medium">of experience handling the end-to-end recruitment lifecycle, including sourcing, screening, interview coordination, and client management.</span>
-                            Experienced in understanding technical requirements and delivering suitable candidates while ensuring a smooth hiring experience for both clients and candidates.
+                            IT Recruiter with 1.6 years of experience handling the end-to-end recruitment lifecycle, including sourcing, screening, interview coordination, and client management. Experienced in understanding technical requirements and delivering suitable candidates while ensuring a smooth hiring experience for both clients and candidates. Bridging technical expertise with organizational vision.
                         </motion.p>
                     </div>
 

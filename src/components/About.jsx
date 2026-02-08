@@ -82,11 +82,10 @@ const About = () => {
                         <h3 className="text-3xl font-bold text-white">Helping technical teams grow with precision and passion.</h3>
                         <div className="space-y-6 text-zinc-400 text-lg leading-relaxed">
                             <p>
-                               I am an IT Recruiter with 1.6 years of experience managing the end-to-end recruitment lifecycle, including talent sourcing, screening, conducting L1 <span className="text-white font-semibold">interview coordination, and client management for technical roles.</span> I partner with business leaders to understand workforce requirements and deliver high-quality talent that drives organizational growth.
+                                I am an IT Recruiter with 1.6 years of experience managing the end-to-end recruitment lifecycle, including talent sourcing, screening, conducting L1 interviews, interview coordination, and client management for technical roles. I partner with business leaders to understand workforce requirements and deliver high-quality talent that drives organizational growth.
                             </p>
                             <p>
-                                I believe recruitment is more than just filling seats—it's about building strong foundations for companies and
-                                meaningful career paths for people.
+                                My approach ensures alignment between company objectives and candidate aspirations, providing a seamless and professional hiring experience. 1.5 years of experience in technical recruitment, driving team growth by identifying and placing talent that fuels innovation and business success.
                             </p>
                         </div>
 

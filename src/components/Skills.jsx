@@ -14,7 +14,6 @@ const Skills = () => {
                 { name: "Technical Interviewing", level: 90 },
                 { name: "Talent Branding", level: 85 },
                 { name: "Onboarding Management", level: 95 },
-                { name: "Offer Negotiation", level: 80 }
             ]
         },
         {
@@ -36,7 +35,8 @@ const Skills = () => {
                 { name: "Client Communication", level: 95 },
                 { name: "Conflict Resolution", level: 85 },
                 { name: "Time Management", level: 90 },
-                { name: "Relationship Building", level: 95 }
+                { name: "Relationship Building", level: 95 },
+                { name: "Offer Negotiation", level: 80 }
             ]
         }
     ];

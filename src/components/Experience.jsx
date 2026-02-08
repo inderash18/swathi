@@ -55,7 +55,7 @@ const Experience = () => {
 
                             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 pt-8 border-t border-white/5">
                                 {[
-                                    { label: "Closures", value: "8/mo" },
+                                    { label: "Closures", value: "4/mo" },
                                     { label: "Success Rate", value: "90%" },
                                     { label: "Screened", value: "100+" },
                                     { label: "Roles", value: "10+" }
