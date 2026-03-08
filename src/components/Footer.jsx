@@ -2,7 +2,7 @@ import { Linkedin, Mail, ArrowUp } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <footer className="py-20 border-t border-white/5 bg-[#010001] relative z-20">
+        <footer className="pt-20 pb-10 border-t border-white/5 bg-[#010001] relative z-20">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-12 text-center md:text-left">
                     <div className="space-y-4">
